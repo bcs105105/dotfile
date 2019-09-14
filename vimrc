@@ -18,5 +18,5 @@ set number
 let NERDTreeIgnore = ['\.o$', '\~$']
 let g:NERDSpaceDelims = 1
 
-map <silent> <C-n> <plug>NERDTreeToggle<CR>
+map <silent> <C-n> :NERDTreeToggle<CR>
 nmap <Leader>r :NERDTreeRefreshRoot<CR>
